@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumina AI - Discover AI Tools</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+</head>
+
+<body>
+
+    <div class="background-glow"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">
+            <span>Lumina AI</span>
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#future">AI Future</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+            </ul>
+        </nav>
+
+        <button id="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>
+                Discover The Future Of
+                <span class="glow">Artificial Intelligence</span>
+            </h1>
+
+            <p id="typing-text"></p>
+
+            <div class="hero-buttons">
+                <a href="#tools" class="btn-primary">Explore Tools</a>
+                <a href="#future" class="btn-secondary">Learn About AI</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEARCH -->
+    <section class="search-section">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search AI tools..."
+        />
+    </section>
+
+    <!-- TOOLS -->
+    <section class="tools-section" id="tools">
+
+        <h2 class="section-title">Trending AI Tools</h2>
+
+        <div class="tools-grid">
+
+            <!-- TOOL CARD -->
+            <div class="tool-card">
+                <i class="fas fa-robot"></i>
+                <h3>ChatGPT</h3>
+                <p>
+                    AI assistant for writing, coding, research, and productivity.
+                </p>
+                <span>Writing AI</span>
+                <a href="https://chatgpt.com" target="_blank">
+                    Visit Tool
+                </a>
+            </div>
+
+            <!-- TOOL CARD -->
+            <div class="tool-card">
+                <i class="fas fa-code"></i>
+                <h3>GitHub Copilot</h3>
+                <p>
+                    AI coding assistant that helps developers write code faster.
+                </p>
+                <span>Developer AI</span>
+                <a href="https://github.com/features/copilot" target="_blank">
+                    Visit Tool
+                </a>
+            </div>
+
+            <!-- TOOL CARD -->
+            <div class="tool-card">
+                <i class="fas fa-palette"></i>
+                <h3>Canva AI</h3>
+                <p>
+                    Create graphics, presentations, and social content using AI.
+                </p>
+                <span>Design AI</span>
+                <a href="https://www.canva.com/ai-image-generator/" target="_blank">
+                    Visit Tool
+                </a>
+            </div>
+
+            <!-- TOOL CARD -->
+            <div class="tool-card">
+                <i class="fas fa-brain"></i>
+                <h3>Claude AI</h3>
+                <p>
+                    Powerful conversational AI assistant built for reasoning and analysis.
+                </p>
+                <span>Productivity AI</span>
+                <a href="https://claude.ai" target="_blank">
+                    Visit Tool
+                </a>
+            </div>
+
+            <!-- TOOL CARD -->
+            <div class="tool-card">
+                <i class="fas fa-video"></i>
+                <h3>Runway ML</h3>
+                <p>
+                    AI video generation and editing platform for creators.
+                </p>
+                <span>Video AI</span>
+                <a href="https://runwayml.com" target="_blank">
+                    Visit Tool
+                </a>
+            </div>
+
+            <!-- TOOL CARD -->
+            <div class="tool-card">
+                <i class="fas fa-microphone"></i>
+                <h3>ElevenLabs</h3>
+                <p>
+                    Generate realistic AI voices and voiceovers instantly.
+                </p>
+                <span>Voice AI</span>
+                <a href="https://elevenlabs.io" target="_blank">
+                    Visit Tool
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- AI MESSAGE -->
+    <section class="future-section" id="future">
+
+        <div class="future-content">
+            <h2>AI Is Here To Empower Humans</h2>
+
+            <p>
+                Artificial Intelligence is not here to replace your creativity,
+                dreams, or potential. It is here to help people work smarter,
+                learn faster, and achieve more with less stress.
+            </p>
+
+            <p>
+                From students and developers to artists and entrepreneurs,
+                AI tools are becoming powerful assistants that simplify tasks
+                and unlock new possibilities for everyone.
+            </p>
+
+            <div class="future-glow-box">
+                <h3>
+                    "AI is not taking your future away —
+                    it is helping you build it faster."
+                </h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter" id="newsletter">
+
+        <h2>Stay Updated With AI Trends</h2>
+
+        <form>
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit">Subscribe</button>
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Lumina AI. Built for the future.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
